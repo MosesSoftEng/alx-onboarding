@@ -1,0 +1,14 @@
+Reads in three numbers and writes them all in sorted order
+
+numbers = INPUT "number three numbers"
+INT sortedNumbers
+
+FOR each number in numbers
+	FOR number1 in sortedNumbers
+		IF number > number1 THEN
+			push number before number1 in sortedNumbers
+		ENDIF
+	ENDFOR
+ENDFOR
+
+PRINT each number in sortedNumbers

@@ -1,0 +1,10 @@
+Calculate the sum of squares of given input of numbers.
+
+numbers = INPUT "Enter numbers"
+numbersSum = 0
+
+FOR each numner in numbers
+	numbersSum = numbersSum + number
+ENDFOR
+
+PRINT numbersSum
